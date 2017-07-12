@@ -1,0 +1,18 @@
+/*******************************
+         Site Overrides
+*******************************/
+@primaryColor   : @pink;
+@secondaryColor : @grey;
+@red            : #B03060;
+@orange         : #FE9A76;
+@yellow         : #FDC000;
+@olive          : #32CD32;
+@green          : #016936;
+@teal           : #008080;
+@blue           : #0E6EB8;
+@violet         : #4D1F5B;
+@purple         : #B413EC;
+@pink           : #FF1493;
+@brown          : #A52A2A;
+@grey           : #A0A0A0;
+@black          : #000000;
