@@ -1,14 +1,13 @@
 import React from 'react'
-import { Image, Header } from 'semantic-ui-react'
-
-import './LandingPage.css'
+import Menu from '../components/Menu'
+import Landing from '../components/Landing'
+import About from '../components/About'
 
 const LandingPage = () => (
   <div>
-    <Image src={require('../../public/main.jpg')} fluid disabled/>
-    <Header color='violet' className='landingPageText'>
-      IMAGINE. LEARN. CREATE.
-    </Header>
+  	<Menu />
+   	<Landing />
+   	<About />
   </div>
 )
 
