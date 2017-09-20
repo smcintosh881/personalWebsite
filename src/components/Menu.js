@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Menu, Image, Button } from 'semantic-ui-react'
+import './LandingPage.css'
 
 export default class NavBar extends Component {
   state = {}
@@ -9,24 +10,19 @@ export default class NavBar extends Component {
     document.getElementById(name).scrollIntoView() 
   }
 
-  handleRegisterClick = (e, { name }) => window.open('https://docs.google.com/forms/d/1m9iiJHQfPDUsvzSHVKbVS4ROC8WTn_kIe1qYK5D0mAo/viewform?edit_requested=true')
-
   render() {
     const { activeItem } = this.state
 
     return (
-      <Menu fixed='top' inverted color='violet' size='massive'>
+      <Menu fixed='top'>
         <Menu.Item name='landing' onClick={this.handleItemClick}> 
-          <Image src={require('../../public/backup.jpg')} verticalAlign='middle' />
+          <Image src={require('../../public/logo.png')} verticalAlign='middle' />
         </Menu.Item>
         <Menu.Menu position='right'>
-          <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleItemClick} />
-          <Menu.Item name='schedule' active={activeItem === 'schedule'} onClick={this.handleItemClick} />
-          <Menu.Item name='faq' active={activeItem === 'faq'} onClick={this.handleItemClick} />
-          <Menu.Item name='sponsors' active={activeItem === 'sponsors'} onClick={this.handleItemClick} />
-          <Menu.Item>
-            <Button color='yellow' basic onClick={this.handleRegisterClick}>Register</Button>
-          </Menu.Item>
+          <Menu.Item className='greenMenuText' name='ABOUT' active={activeItem === 'ABOUT'} onClick={this.handleItemClick} />
+          <Menu.Item className='greenMenuText' name='PROJECTS' active={activeItem === 'PROJECTS'} onClick={this.handleItemClick} />
+          <Menu.Item className='greenMenuText' name='PHOTOGRAPHY' active={activeItem === 'PHOTOGRAPHY'} onClick={this.handleItemClick} />
+          <Menu.Item className='greenMenuText' name='RESUME' active={activeItem === 'RESUME'} onClick={this.handleItemClick} />
         </Menu.Menu>
       </Menu>
     )

@@ -386,7 +386,7 @@
   background-color: #FDC000;
 }
 .ui.yellow.inverted.progress .bar {
-  background-color: #FFE21F;
+  background-color: #FDC000;
 }
 
 /* Olive */
@@ -423,7 +423,7 @@
 
 /* Violet */
 .ui.violet.progress .bar {
-  background-color: #4D1F5B;
+  background-color: #5ab96c;
 }
 .ui.violet.inverted.progress .bar {
   background-color: #A291FB;

@@ -701,10 +701,10 @@
 
 /* Violet */
 .ui.violet.table {
-  border-top: 0.2em solid #4D1F5B;
+  border-top: 0.2em solid #5ab96c;
 }
 .ui.inverted.violet.table {
-  background-color: #4D1F5B !important;
+  background-color: #5ab96c !important;
   color: #FFFFFF !important;
 }
 

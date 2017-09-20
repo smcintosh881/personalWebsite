@@ -1,6 +1,19 @@
 .landingPageText {
 	position: absolute;
-	left: 20%;
-	top: 50%;
+	left: 19%;
+	top: 45%;
+}
+
+.extraLargeFont {
 	font-size: 5em !important;
+}
+
+.landingPageArrowButton {
+	position: absolute;
+	left: 42%;
+	top: 65%;
+}
+
+.greenMenuText {
+	color: #5ab96c !important;
 }

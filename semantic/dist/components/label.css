@@ -797,8 +797,8 @@ a.ui.basic.blue.label:hover {
 
 .ui.violet.labels .label,
 .ui.violet.label {
-  background-color: #4D1F5B !important;
-  border-color: #4D1F5B !important;
+  background-color: #5ab96c !important;
+  border-color: #5ab96c !important;
   color: #FFFFFF !important;
 }
 
@@ -824,8 +824,8 @@ a.ui.violet.label:hover {
 /* Basic */
 .ui.basic.violet.label {
   background-color: #FFFFFF !important;
-  color: #4D1F5B !important;
-  border-color: #4D1F5B !important;
+  color: #5ab96c !important;
+  border-color: #5ab96c !important;
 }
 .ui.basic.violet.labels a.label:hover,
 a.ui.basic.violet.label:hover {

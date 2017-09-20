@@ -428,9 +428,9 @@
 }
 .ui.violet.message {
   background-color: #EAE7FF;
-  color: #4D1F5B;
-  -webkit-box-shadow: 0px 0px 0px 1px #4D1F5B inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #4D1F5B inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #5ab96c;
+  -webkit-box-shadow: 0px 0px 0px 1px #5ab96c inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #5ab96c inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.violet.message .header {
   color: #3d1948;
